@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #84ff00;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.js-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.js-input {
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.js-btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+} 
+
+.info-text {
+display: block;
+}
