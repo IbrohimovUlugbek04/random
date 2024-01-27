@@ -8,21 +8,44 @@
   </head>
   <body>
     <div class="container">
-      <form class="js-form">
-        <input
-          class="js-input"
-          type="number"
-          aria-label="Enter your number"
-          placeholder="Find number"
-          min="0"
-          max="100"
-        />
-        <button class="js-btn" type="submit">Check</button>
-        <p class="js-paragrph">
-          Urunishlar soni: <span class="js-text">6</span>
-        </p>
-        <output class="info-text">..</output>
-      </form>
+      <div class="random-number__top">
+        <form class="random-number__add-form">
+          <input
+            class="random-number__top-input js-add__number-start"
+            type="number"
+            placeholder="Boshlanish raqamni kiriting!"
+            value="1"
+            max="5000"
+          />
+          <input
+            class="random-number__top-input js-add__number-finish"
+            type="number"
+            placeholder="Tugash raqamni kiriting!"
+            value="100"
+            max="10000"
+          />
+          <button class="add-number__btn" type="submit">Submit</button>
+          <output>0</output>
+        </form>
+        <button class="close-btn" type="button">Close</button>
+      </div>
+      <div class="random-number__end">
+        <form class="js-form">
+          <input
+            class="js-input"
+            type="number"
+            aria-label="Enter your number"
+            placeholder="Find number"
+            min="0"
+            max="100"
+          />
+          <button class="js-btn" type="submit">Check</button>
+          <p class="js-paragrph">
+            Urunishlar soni: <span class="js-text">10</span>
+          </p>
+          <output class="info-text">..</output>
+        </form>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>
